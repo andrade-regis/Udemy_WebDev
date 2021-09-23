@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Div - Span</title>
+        <meta charset="utf-8">
+
+        <style type="text/CSS">
+        
+        #topo{
+            background: blue;
+        }
+
+        #conteudo{
+            background: red;
+        }
+
+        #rodape{
+            text-align: center;  
+            background-color: green;          
+        }
+
+        #assinatura{
+            text-align: center;  
+            background-color: gray;          
+        }
+
+        .produto{
+            background: gray;
+            margin: 10px;
+        }
+
+        .azul{
+            color: blue;
+        }
+        
+        </style>
+
+    </head>
+    <body>
+        <div id="topo">
+            <img src="Imagens/amazon_logo.png" width="200" alt="Logo Amazon">
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+            </ul>        
+        </div>
+
+        <div id="conteudo">
+            <div class="produto">
+                Produto 1
+            </div>
+            <div class="produto">
+                Produto 2
+            </div>
+            <div class="produto">
+                Produto 3
+            </div>
+        </div>
+               
+        <div id="rodape">            
+            Todos os <span class="azul">direitos</span> reservados ©
+        </div>
+
+        <!-- Diferença DIV para SPAN-->
+        <span id="assinatura">
+            Regis
+        </span>
+
+        <span>
+            Andrade
+        </span><br>
+
+        <div id="assinatura">
+            Regis
+        </div>
+
+        <div>
+            Andrade
+        </div>
+    </body>
+</html> 
